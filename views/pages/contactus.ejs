@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../includes/head'); %>
+</head>
+<body class="container">
+
+<header>
+    <%- include('../includes/nav'); %>
+</header>
+
+<main>
+<div class="container contact-form">
+            <div class="contact-image">
+                <img src="https://www.frenchdriver.fr/media/upload/2015/01/photo-maison-contemporaine-automobile-1-013.jpg" width='400' alt="rocket_contact"/>
+            </div>
+            <form method="post">
+                <h3>Send us your notice</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Put your Name Please " value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Put your Email please " value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Add your Number Phone " value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value=" Send " />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Put your Message here " style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+</div>
+</main>
+
+<footer>
+    <%- include('../includes/footer'); %>
+</footer>
+
+</body>
+</html>
+© 2021 GitHub, Inc.
